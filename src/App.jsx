@@ -80,8 +80,8 @@ const App = () => {
                 </div>
                 <div className='box'>
                     <input type='text' placeholder='Girls Name..' onChange={(e) => setinput(e.target.value)} value={input} />
-                    <img className='name' src='nm.png'></img>
-                    <img className='girl' src='girl.png'></img>
+                    <img className='name' src='src/assets/nm.png'></img>
+                    <img className='girl' src='src/assets/girl.png'></img>
                     <div>
                         <input type='text' placeholder='Boys Name..' onChange={(e) => setinput2(e.target.value)} value={input2} />
                     </div>
